@@ -64,9 +64,28 @@ Smart Agriculture Project for Cyber Physical Systems course.
         
         ![git](images/git7.png)
 
-    * 
+    * Add the new/modified files into staging area (use the dot at the end of the command to include all files/folders automatically):
 
-    
+        ``` >> git add . ```
+
+        ![git](images/git8.png)
+
+    * Commit the changes by adding a message with what changes were done.
+
+        ``` >> git commit -m "Added sample code" ```
+
+        ![git](images/git9.png)
+
+    * Push the code to the public server for all your teammates to view and access.
+
+        ``` >> git push ```
+
+        ![git](images/git11.png)
+
+4. Check online by refreshing the page to see if your project changes reflect.
+
+    ![git](images/git12.png)
+
 
 
 
