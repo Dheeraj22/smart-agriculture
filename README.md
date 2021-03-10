@@ -47,10 +47,12 @@ Smart Agriculture Project for Cyber Physical Systems course.
 2. You can add file/folders and absolutely any change you want to this repository. But to not thread or affect other's code, create a folder with your name in this directory. Then add corresponding files into that. 
 
     * For example, create a directory named "John Doe". 
-    ![git](images/git5.png)
+    
+        ![git](images/git5.PNG)
 
     * Now create your arduino sketch in Arduino IDE. Once tested, copy and paste it inside this folder. 
-    ![git](images/git6.png)
+    
+        ![git](images/git6.PNG)
 
 3. Once all the code is tested and you are ready to push the changes for everyone to see, run the following commands:
 
