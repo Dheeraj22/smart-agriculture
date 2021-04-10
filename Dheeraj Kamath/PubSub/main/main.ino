@@ -354,11 +354,6 @@ void loop() {
     
     client.loop();
 
-    dht_read();
-    water_level_read();
-    light_read();
-    soil_moisture_read();
-
     long now = millis();
 
     if((now - lastMsg) > 1000){
@@ -368,10 +363,7 @@ void loop() {
         dht_read();
         water_level_read();
         light_read();
-        lastSoilMoistureUpdate = now;
         soil_moisture_read();
-        Serial.print("Entered moisture: ");
-        Serial.println(lastSoilMoistureUpdate);
     }
 
     if(mqttUpdate){
