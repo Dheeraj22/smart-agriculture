@@ -1,0 +1,2 @@
+# Smart Workspace AWS Lambda
+
