@@ -1,19 +1,5 @@
-/*Developed by M V Subrahmanyam - https://www.linkedin.com/in/veera-subrahmanyam-mediboina-b63997145/
-Project: AWS | NodeMCU ESP32 Tutorials
-Electronics Innovation - www.electronicsinnovation.com
-
-GitHub - https://github.com/VeeruSubbuAmi
-YouTube - http://bit.ly/Electronics_Innovation
-
-Upload date: 07 October 2019
-
-AWS Iot Core
-
-This example needs https://github.com/esp8266/arduino-esp8266fs-plugin
-
-It connects to AWS IoT server then:
-- publishes "hello world" to the topic "outTopic" every two seconds
-- subscribes to the topic "inTopic", printing out any messages
+/* Author: Dheeraj D Kamath
+ * Upload date: 10 April 2021
 */
 
 #include "FS.h"
